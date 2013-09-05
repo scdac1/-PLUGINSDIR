@@ -1,0 +1,91 @@
+  html{
+    overflow:auto
+  }
+  body{
+    font-family:Trebuchet MS;
+    font-family:Tahoma,Arial,san-serif;
+	font-size:11px;
+    background-color:threedface;
+    margin:0px;
+    width:100%;
+    overflow:hidden;
+  }
+  .DivContainer {
+    padding:10px;
+    margin-left:20px;
+    margin-top:10px;
+    border:2px;
+    border-style:groove;
+    width:585px;
+    left:20px;
+
+}
+.DivOffer,.DivErrors{
+  padding:0px;
+  width:582px;
+  margin-top:10px;
+  margin-bottom:10px;
+  left:20px;
+  height:205px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  border:1px;
+  border-style:inset;
+}
+.DivOfferProgress,.DivErrorsProgress{
+  padding:0px;
+  width:606px;
+  margin-top:0px;
+  margin-bottom:10px;
+  left:20px;
+  height:235px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  border:1px;
+  border-style:inset;
+}
+.tblOffer {
+    background-color:#FFFFFF;
+    padding:0px;
+    border-collapse:collapse;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+
+  }
+  .tblOffer thead {
+    font-weight:normal;
+    background-color:threedface;
+
+  }
+  .tblOffer thead td {
+    border:1px inset;
+    border-style:outset;
+  }
+  .tblOffer tbody td {
+  	font-size:10px;
+    height:20px;
+  }
+  .tblOffer .even {
+    background-color:#EFEFEF;
+  }
+  .tblOffer .odd {
+    background-color:#C2EAEE;
+  }
+  .app-name{
+    width:240px;
+  }
+  .single-column .app-name {
+    width:100%;
+  }
+  .app-status{
+	width:160px;
+  }
+  .app-status-icon{
+    width:45px;
+	text-align:center;
+  }
+  #tblOfferBody{
+  	font-size:13px;
+	color:#666666;
+  }
